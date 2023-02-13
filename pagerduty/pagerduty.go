@@ -44,6 +44,7 @@ type Client struct {
 	Rulesets                     *RulesetService
 	EventOrchestrations          *EventOrchestrationService
 	EventOrchestrationPaths      *EventOrchestrationPathService
+	EventOrchestrationIntegrations *EventOrchestrationIntegrationService
 	Schedules                    *ScheduleService
 	Services                     *ServicesService
 	Teams                        *TeamService
